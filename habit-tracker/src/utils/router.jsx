@@ -5,5 +5,9 @@ export const router = createBrowserRouter([
     {
         path: "/",
         element: <Main />
+    },
+    {
+        path: "/history",
+        element: <History />
     }
 ])
